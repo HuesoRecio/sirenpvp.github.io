@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SirenPvP Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SIRENPVP</h1>
+  <p>Tienda oficial</p>
+</header>
+
+<section class="store">
+
+  <div class="card">
+    <h2>SIREN</h2>
+    <p class="price">$5 USD</p>
+    <ul>
+      <li>✔ Kit Siren</li>
+      <li>✔ Prefix en chat</li>
+      <li>✔ /fly</li>
+    </ul>
+    <a href="https://TU_TIENDA.tebex.io" class="buy">Comprar</a>
+  </div>
+
+  <div class="card vip">
+    <h2>SIREN+</h2>
+    <p class="price">$10 USD</p>
+    <ul>
+      <li>✔ Todo Siren</li>
+      <li>✔ Llaves extras</li>
+      <li>✔ Color chat</li>
+    </ul>
+    <a href="https://TU_TIENDA.tebex.io" class="buy">Comprar</a>
+  </div>
+
+  <div class="card">
+    <h2>LEGION</h2>
+    <p class="price">$20 USD</p>
+    <ul>
+      <li>✔ Todo anterior</li>
+      <li>✔ Kit OP</li>
+      <li>✔ Partículas</li>
+    </ul>
+    <a href="https://TU_TIENDA.tebex.io" class="buy">Comprar</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© SirenPvP 2026 • No afiliado a Mojang</p>
+</footer>
+
+</body>
+</html>
