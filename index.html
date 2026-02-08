@@ -1,85 +1,57 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b1220;
-  color: white;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SirenPvP Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  text-align: center;
-  padding: 40px;
-  background: linear-gradient(90deg, #06b6d4, #3b82f6);
-}
+<header>
+  <h1>SIRENPVP</h1>
+  <p>Tienda oficial</p>
+</header>
 
-header h1 {
-  font-size: 50px;
-  margin: 0;
-}
+<section class="store">
 
-.store {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  padding: 50px;
-  flex-wrap: wrap;
-}
+  <div class="card">
+    <h2>SIREN</h2>
+    <p class="price">$5 USD</p>
+    <ul>
+      <li>✔ Kit Siren</li>
+      <li>✔ Prefix en chat</li>
+      <li>✔ /fly</li>
+    </ul>
+    <a href="https://TU_TIENDA.tebex.io" class="buy">Comprar</a>
+  </div>
 
-.card {
-  background: #111827;
-  border-radius: 15px;
-  padding: 25px;
-  width: 280px;
-  box-shadow: 0 0 15px rgba(0,255,255,0.2);
-  transition: transform 0.3s;
-}
+  <div class="card vip">
+    <h2>SIREN+</h2>
+    <p class="price">$10 USD</p>
+    <ul>
+      <li>✔ Todo Siren</li>
+      <li>✔ Llaves extras</li>
+      <li>✔ Color chat</li>
+    </ul>
+    <a href="https://TU_TIENDA.tebex.io" class="buy">Comprar</a>
+  </div>
 
-.card:hover {
-  transform: translateY(-10px);
-}
+  <div class="card">
+    <h2>LEGION</h2>
+    <p class="price">$20 USD</p>
+    <ul>
+      <li>✔ Todo anterior</li>
+      <li>✔ Kit OP</li>
+      <li>✔ Partículas</li>
+    </ul>
+    <a href="https://TU_TIENDA.tebex.io" class="buy">Comprar</a>
+  </div>
 
-.card h2 {
-  text-align: center;
-  color: cyan;
-}
+</section>
 
-.price {
-  text-align: center;
-  font-size: 24px;
-  margin: 15px 0;
-}
+<footer>
+  <p>© SirenPvP 2026 • No afiliado a Mojang</p>
+</footer>
 
-.card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.card li {
-  padding: 6px 0;
-}
-
-.buy {
-  display: block;
-  text-align: center;
-  background: cyan;
-  color: black;
-  padding: 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-.buy:hover {
-  background: #22d3ee;
-}
-
-.vip {
-  border: 2px solid cyan;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #020617;
-  font-size: 14px;
-}
+</body>
+</html>
